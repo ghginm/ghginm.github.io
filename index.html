@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>My notes</title>
-    <meta name="description" content="An attempt to make some maths concepts easier to understand">
+    <title>Some maths concepts made easier to understand</title>
+    <meta name="description" content="Additionally, valuable references are provided to improve your understanding of these topics, especially with the help of great visual materials.">
     <meta name="author" content="Konstantin Zuev">
 
     <style>
@@ -30,6 +30,7 @@
             margin-left: auto;
             margin-right: auto;
             width: 80%;
+            max-width: 100%;
         }
 
         .embed_pdf {
@@ -42,7 +43,7 @@
 
 <body>
     <div id="img_box_1">
-        <img id="img1" src="./0_Assets/Intro.png">
+        <img id="img1" src="./0_Assets/Intro.png" alt="formulas_background_img">
     </div>
 
     <h1>Studying maths, statistics and ML</h1>
@@ -71,7 +72,9 @@
     <p>If there's something you'd like to discuss or if you've come across any mistakes you'd like to correct, please feel free to contact me on <a href="https://www.linkedin.com/in/konstantin-zuev-2806471a3/">LinkedIn</a>.</p>
 
     <div class="embed_pdf">
-        <embed src="./0_Assets/Overview.pdf" type="application/pdf" width="1000", height="1000"/>
+        <object data="./0_Assets/Overview.pdf" type="application/pdf" width="1000", height="1000"/>
+        <p>Your browser doesn't support PDF files</p>
+        <p><a href="./0_Assets/Overview.pdf">You can download the file instead</a></p>
     </div>
 </body>
 </html>
