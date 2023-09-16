@@ -8,7 +8,7 @@
 
     <style>
         body {
-            padding: 50px 60px 50px 60px;
+            padding: 20px;
             margin-left: auto;
             margin-right: auto;
 
@@ -16,7 +16,18 @@
             font-family: Calibri, sans-serif;
         }
 
-        p, li {
+        @media (min-width: 768px) {
+            body {
+                padding: 50px 60px;
+            }
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        li {
             text-align: justify;
         }
 
